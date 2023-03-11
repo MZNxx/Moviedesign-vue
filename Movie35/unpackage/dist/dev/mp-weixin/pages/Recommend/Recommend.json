@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优质推荐",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#00ffff",
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs"
+  }
+}

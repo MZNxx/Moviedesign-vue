@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "甄有剧",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#00ffff"
+					// "app-plus": {
+					// 				"titleNView": {
+					// 					"buttons": [{
+					// 						"float": "right",
+					// 						"fontSize": "16px",
+					// 						"width": "60px",
+					// 						"color": "#3c434a",
+					// 						"text": "筛选"
+					// 					}],
+					// 					"searchInput": {
+					// 						"backgroundColor": "#eee",
+					// 						"borderRadius": "6px",
+					// 						"placeholder": "搜索",
+					// 						"align": "left"
+					// 					}
+					// 				}
+					// 			}
+					}
+		}
+	    ,{
+            "path" : "pages/ViewArea/ViewArea",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "观赏区",
+                "navigationBarTextStyle": "black",
+                "navigationBarBackgroundColor": "#00ffff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Recommend/Recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "优质推荐",
+               "navigationBarTextStyle": "black",
+               "navigationBarBackgroundColor": "#00ffff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/My/My",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false //禁用导航栏
+				},
+                "navigationBarTitleText": "个人中心",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#ffd655"
+            }
+            
+        }
+        ,{
+            "path" : "pages/regist/regist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "navigationBarTitleText": "个人中心",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#ffd655"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "甄有剧",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	//底部tab配置信息
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#65,168,99",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tabBar/首页01.png",
+				"selectedIconPath": "static/tabBar/首页02.png"
+			},
+			{
+				"text": "发现",
+				"pagePath": "pages/ViewArea/ViewArea",
+				"iconPath": "static/tabBar/电影01.png",
+				"selectedIconPath": "static/tabBar/电影02.png"
+			},
+			{
+				"text": "排行榜",
+				"pagePath": "pages/Recommend/Recommend",
+				"iconPath": "./static/tabBar/列表01.png",
+				"selectedIconPath": "static/tabBar/列表02.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/My/My",
+				"iconPath": "./static/tabBar/个人中心-个人信息01.png",
+				"selectedIconPath": "static/tabBar/个人中心-个人信息02.png"
+			}
+		]
+	}
+}
