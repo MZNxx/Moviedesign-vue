@@ -54,7 +54,6 @@
 	font-size: 14px;
 	font-weight: bold;
 	white-space: nowrap;
-	margin-left: 25%;
 }
 
 .movie-score-wrapper{
@@ -91,11 +90,14 @@ align-items: center;
 justify-content: space-between;
 box-sizing: border-box;
 padding: 0px 10px;
+position: relative;
+border-bottom: 2rpx solid #eee;
 }
 .searchInput {
 width: 220px;
 height: 100%;
 margin-left: 0px;
+
 }
 .btstyle{
 	font-size: 60%;
@@ -116,4 +118,24 @@ flex-wrap: wrap;
 height: 20px;
 border: 1px solid #eee;
 margin: 0px 5px;
+}
+
+.bottonBox{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 25%;
+	right: 12rpx;
+}
+.bottonBox .qr{
+	font-size: 32rpx;
+	padding: 8rpx;
+	border: 1rpx solid #eee;
+	border-radius: 16rpx;
+	margin-right: 10rpx;
+}
+
+.bottonBox .qx{
+	width: 28rpx;
+	height: 28rpx;
 }

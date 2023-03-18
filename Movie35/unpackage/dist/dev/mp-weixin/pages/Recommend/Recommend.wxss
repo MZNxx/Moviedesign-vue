@@ -27,10 +27,22 @@
 view {
   box-sizing: border-box;
 }
+page {
+  background-color: #f8f8f8;
+}
+.tab {
+  background-color: #fff;
+}
 .movieBox {
+  background: #fff;
   display: flex;
   align-items: top;
   justify-content: space-evenly;
+  padding: 12rpx;
+  border: 1rpx solid #55aaff;
+  border-radius: 16rpx;
+  position: relative;
+  margin: 4rpx 12rpx;
 }
 .movieBox .rankItem {
   width: 10%;
@@ -48,7 +60,19 @@ view {
   flex-direction: column;
 }
 .movieBox .textBox .title {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
   font-size: 45rpx;
   font-weight: bold;
+}
+.movieBox .textMore {
+  height: 28rpx;
+  width: 28rpx;
+  position: absolute;
+  right: 24rpx;
+  top: 24rpx;
 }
 

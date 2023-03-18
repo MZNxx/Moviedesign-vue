@@ -9562,44 +9562,7 @@ function normalizeComponent (
 
 
 /***/ }),
-/* 33 */,
-/* 34 */,
-/* 35 */,
-/* 36 */,
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */
+/* 33 */
 /*!***********************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/index.js ***!
   \***********************************************************/
@@ -9615,20 +9578,20 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 71));
-var _mpMixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpMixin.js */ 72));
-var _luchRequest = _interopRequireDefault(__webpack_require__(/*! ./libs/luch-request */ 73));
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/util/route.js */ 91));
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 95));
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 96));
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 97));
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 98));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./libs/function/index.js */ 99));
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 102));
-var _props = _interopRequireDefault(__webpack_require__(/*! ./libs/config/props.js */ 103));
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 193));
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/config/color.js */ 151));
-var _platform = _interopRequireDefault(__webpack_require__(/*! ./libs/function/platform */ 194));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 34));
+var _mpMixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpMixin.js */ 35));
+var _luchRequest = _interopRequireDefault(__webpack_require__(/*! ./libs/luch-request */ 36));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/util/route.js */ 54));
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 58));
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 59));
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 60));
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 61));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./libs/function/index.js */ 62));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 65));
+var _props = _interopRequireDefault(__webpack_require__(/*! ./libs/config/props.js */ 66));
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 156));
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/config/color.js */ 114));
+var _platform = _interopRequireDefault(__webpack_require__(/*! ./libs/function/platform */ 157));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 // 看到此报错，是因为没有配置vue.config.js的【transpileDependencies】，详见：https://www.uviewui.com/components/npmSetting.html#_5-cli模式额外配置
@@ -9688,7 +9651,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 71 */
+/* 34 */
 /*!**********************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/mixin/mixin.js ***!
   \**********************************************************************/
@@ -9856,7 +9819,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 72 */
+/* 35 */
 /*!************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
   \************************************************************************/
@@ -9879,7 +9842,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 73 */
+/* 36 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/index.js ***!
   \*****************************************************************************/
@@ -9894,12 +9857,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _Request = _interopRequireDefault(__webpack_require__(/*! ./core/Request */ 74));
+var _Request = _interopRequireDefault(__webpack_require__(/*! ./core/Request */ 37));
 var _default = _Request.default;
 exports.default = _default;
 
 /***/ }),
-/* 74 */
+/* 37 */
 /*!************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
   \************************************************************************************/
@@ -9917,12 +9880,12 @@ exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
-var _dispatchRequest = _interopRequireDefault(__webpack_require__(/*! ./dispatchRequest */ 75));
-var _InterceptorManager = _interopRequireDefault(__webpack_require__(/*! ./InterceptorManager */ 83));
-var _mergeConfig = _interopRequireDefault(__webpack_require__(/*! ./mergeConfig */ 84));
-var _defaults = _interopRequireDefault(__webpack_require__(/*! ./defaults */ 85));
-var _utils = __webpack_require__(/*! ../utils */ 78);
-var _clone = _interopRequireDefault(__webpack_require__(/*! ../utils/clone */ 86));
+var _dispatchRequest = _interopRequireDefault(__webpack_require__(/*! ./dispatchRequest */ 38));
+var _InterceptorManager = _interopRequireDefault(__webpack_require__(/*! ./InterceptorManager */ 46));
+var _mergeConfig = _interopRequireDefault(__webpack_require__(/*! ./mergeConfig */ 47));
+var _defaults = _interopRequireDefault(__webpack_require__(/*! ./defaults */ 48));
+var _utils = __webpack_require__(/*! ../utils */ 41);
+var _clone = _interopRequireDefault(__webpack_require__(/*! ../utils/clone */ 49));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var Request = /*#__PURE__*/function () {
@@ -10105,7 +10068,7 @@ var Request = /*#__PURE__*/function () {
 exports.default = Request;
 
 /***/ }),
-/* 75 */
+/* 38 */
 /*!********************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
   \********************************************************************************************/
@@ -10120,14 +10083,14 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _index = _interopRequireDefault(__webpack_require__(/*! ../adapters/index */ 76));
+var _index = _interopRequireDefault(__webpack_require__(/*! ../adapters/index */ 39));
 var _default = function _default(config) {
   return (0, _index.default)(config);
 };
 exports.default = _default;
 
 /***/ }),
-/* 76 */
+/* 39 */
 /*!**************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
   \**************************************************************************************/
@@ -10143,10 +10106,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _buildURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/buildURL */ 77));
-var _buildFullPath = _interopRequireDefault(__webpack_require__(/*! ../core/buildFullPath */ 79));
-var _settle = _interopRequireDefault(__webpack_require__(/*! ../core/settle */ 82));
-var _utils = __webpack_require__(/*! ../utils */ 78);
+var _buildURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/buildURL */ 40));
+var _buildFullPath = _interopRequireDefault(__webpack_require__(/*! ../core/buildFullPath */ 42));
+var _settle = _interopRequireDefault(__webpack_require__(/*! ../core/settle */ 45));
+var _utils = __webpack_require__(/*! ../utils */ 41);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 /**
@@ -10208,7 +10171,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 77 */
+/* 40 */
 /*!****************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
   \****************************************************************************************/
@@ -10223,7 +10186,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = buildURL;
-var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 78));
+var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 41));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function encode(val) {
@@ -10278,7 +10241,7 @@ function buildURL(url, params) {
 }
 
 /***/ }),
-/* 78 */
+/* 41 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/utils.js ***!
   \*****************************************************************************/
@@ -10431,7 +10394,7 @@ function isUndefined(val) {
 }
 
 /***/ }),
-/* 79 */
+/* 42 */
 /*!******************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
   \******************************************************************************************/
@@ -10446,8 +10409,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = buildFullPath;
-var _isAbsoluteURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/isAbsoluteURL */ 80));
-var _combineURLs = _interopRequireDefault(__webpack_require__(/*! ../helpers/combineURLs */ 81));
+var _isAbsoluteURL = _interopRequireDefault(__webpack_require__(/*! ../helpers/isAbsoluteURL */ 43));
+var _combineURLs = _interopRequireDefault(__webpack_require__(/*! ../helpers/combineURLs */ 44));
 /**
  * Creates a new URL by combining the baseURL with the requestedURL,
  * only when the requestedURL is not already an absolute URL.
@@ -10465,7 +10428,7 @@ function buildFullPath(baseURL, requestedURL) {
 }
 
 /***/ }),
-/* 80 */
+/* 43 */
 /*!*********************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
   \*********************************************************************************************/
@@ -10493,7 +10456,7 @@ function isAbsoluteURL(url) {
 }
 
 /***/ }),
-/* 81 */
+/* 44 */
 /*!*******************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
   \*******************************************************************************************/
@@ -10519,7 +10482,7 @@ function combineURLs(baseURL, relativeURL) {
 }
 
 /***/ }),
-/* 82 */
+/* 45 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
   \***********************************************************************************/
@@ -10551,7 +10514,7 @@ function settle(resolve, reject, response) {
 }
 
 /***/ }),
-/* 83 */
+/* 46 */
 /*!***********************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
   \***********************************************************************************************/
@@ -10615,7 +10578,7 @@ var _default = InterceptorManager;
 exports.default = _default;
 
 /***/ }),
-/* 84 */
+/* 47 */
 /*!****************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
   \****************************************************************************************/
@@ -10631,7 +10594,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _utils = __webpack_require__(/*! ../utils */ 78);
+var _utils = __webpack_require__(/*! ../utils */ 41);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 /**
@@ -10691,7 +10654,7 @@ var _default = function _default(globalsConfig) {
 exports.default = _default;
 
 /***/ }),
-/* 85 */
+/* 48 */
 /*!*************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
   \*************************************************************************************/
@@ -10723,7 +10686,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 86 */
+/* 49 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
   \***********************************************************************************/
@@ -10972,10 +10935,10 @@ var clone = function () {
 }();
 var _default = clone;
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/buffer/index.js */ 87).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/buffer/index.js */ 50).Buffer))
 
 /***/ }),
-/* 87 */
+/* 50 */
 /*!**************************************!*\
   !*** ./node_modules/buffer/index.js ***!
   \**************************************/
@@ -10993,9 +10956,9 @@ exports.default = _default;
 
 
 
-var base64 = __webpack_require__(/*! base64-js */ 88)
-var ieee754 = __webpack_require__(/*! ieee754 */ 89)
-var isArray = __webpack_require__(/*! isarray */ 90)
+var base64 = __webpack_require__(/*! base64-js */ 51)
+var ieee754 = __webpack_require__(/*! ieee754 */ 52)
+var isArray = __webpack_require__(/*! isarray */ 53)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -12776,7 +12739,7 @@ function isnan (val) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 88 */
+/* 51 */
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
   \*****************************************/
@@ -12937,7 +12900,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 89 */
+/* 52 */
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
   \***************************************/
@@ -13032,7 +12995,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 90 */
+/* 53 */
 /*!***************************************!*\
   !*** ./node_modules/isarray/index.js ***!
   \***************************************/
@@ -13047,7 +13010,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 91 */
+/* 54 */
 /*!*********************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/util/route.js ***!
   \*********************************************************************/
@@ -13062,8 +13025,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 92));
-var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 94));
+var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
+var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
 var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
 /**
@@ -13235,7 +13198,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 92 */
+/* 55 */
 /*!************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/@babel/runtime/regenerator/index.js ***!
   \************************************************************************************************/
@@ -13244,11 +13207,11 @@ exports.default = _default;
 
 // TODO(Babel 8): Remove this file.
 
-var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 93)();
+var runtime = __webpack_require__(/*! @babel/runtime/helpers/regeneratorRuntime */ 56)();
 module.exports = runtime;
 
 /***/ }),
-/* 93 */
+/* 56 */
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/regeneratorRuntime.js ***!
   \*******************************************************************/
@@ -13569,7 +13532,7 @@ function _regeneratorRuntime() {
 module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
-/* 94 */
+/* 57 */
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/asyncToGenerator.js ***!
   \*****************************************************************/
@@ -13609,7 +13572,7 @@ function _asyncToGenerator(fn) {
 module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
-/* 95 */
+/* 58 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/colorGradient.js ***!
   \*********************************************************************************/
@@ -13764,7 +13727,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 96 */
+/* 59 */
 /*!************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/test.js ***!
   \************************************************************************/
@@ -14069,7 +14032,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 97 */
+/* 60 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/debounce.js ***!
   \****************************************************************************/
@@ -14116,7 +14079,7 @@ var _default = debounce;
 exports.default = _default;
 
 /***/ }),
-/* 98 */
+/* 61 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/throttle.js ***!
   \****************************************************************************/
@@ -14165,7 +14128,7 @@ var _default = throttle;
 exports.default = _default;
 
 /***/ }),
-/* 99 */
+/* 62 */
 /*!*************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/index.js ***!
   \*************************************************************************/
@@ -14182,8 +14145,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ 5));
 var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 96));
-var _digit = __webpack_require__(/*! ./digit.js */ 100);
+var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 59));
+var _digit = __webpack_require__(/*! ./digit.js */ 63);
 /**
  * @description 如果value小于min，取min；如果value大于max，取max
  * @param {number} min 
@@ -14926,7 +14889,7 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 100 */
+/* 63 */
 /*!*************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/digit.js ***!
   \*************************************************************************/
@@ -14947,7 +14910,7 @@ exports.minus = minus;
 exports.plus = plus;
 exports.round = round;
 exports.times = times;
-var _toArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toArray */ 101));
+var _toArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toArray */ 64));
 var _boundaryCheckingState = true; // 是否进行越界检查的全局开关
 
 /**
@@ -15128,7 +15091,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 101 */
+/* 64 */
 /*!********************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/toArray.js ***!
   \********************************************************/
@@ -15145,7 +15108,7 @@ function _toArray(arr) {
 module.exports = _toArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
-/* 102 */
+/* 65 */
 /*!************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/config.js ***!
   \************************************************************************/
@@ -15189,7 +15152,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 103 */
+/* 66 */
 /*!***********************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props.js ***!
   \***********************************************************************/
@@ -15205,95 +15168,95 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
-var _config = _interopRequireDefault(__webpack_require__(/*! ./config */ 102));
-var _actionSheet = _interopRequireDefault(__webpack_require__(/*! ./props/actionSheet.js */ 104));
-var _album = _interopRequireDefault(__webpack_require__(/*! ./props/album.js */ 105));
-var _alert = _interopRequireDefault(__webpack_require__(/*! ./props/alert.js */ 106));
-var _avatar = _interopRequireDefault(__webpack_require__(/*! ./props/avatar */ 107));
-var _avatarGroup = _interopRequireDefault(__webpack_require__(/*! ./props/avatarGroup */ 108));
-var _backtop = _interopRequireDefault(__webpack_require__(/*! ./props/backtop */ 109));
-var _badge = _interopRequireDefault(__webpack_require__(/*! ./props/badge */ 110));
-var _button = _interopRequireDefault(__webpack_require__(/*! ./props/button */ 111));
-var _calendar = _interopRequireDefault(__webpack_require__(/*! ./props/calendar */ 112));
-var _carKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/carKeyboard */ 113));
-var _cell = _interopRequireDefault(__webpack_require__(/*! ./props/cell */ 114));
-var _cellGroup = _interopRequireDefault(__webpack_require__(/*! ./props/cellGroup */ 115));
-var _checkbox = _interopRequireDefault(__webpack_require__(/*! ./props/checkbox */ 116));
-var _checkboxGroup = _interopRequireDefault(__webpack_require__(/*! ./props/checkboxGroup */ 117));
-var _circleProgress = _interopRequireDefault(__webpack_require__(/*! ./props/circleProgress */ 118));
-var _code = _interopRequireDefault(__webpack_require__(/*! ./props/code */ 119));
-var _codeInput = _interopRequireDefault(__webpack_require__(/*! ./props/codeInput */ 120));
-var _col = _interopRequireDefault(__webpack_require__(/*! ./props/col */ 121));
-var _collapse = _interopRequireDefault(__webpack_require__(/*! ./props/collapse */ 122));
-var _collapseItem = _interopRequireDefault(__webpack_require__(/*! ./props/collapseItem */ 123));
-var _columnNotice = _interopRequireDefault(__webpack_require__(/*! ./props/columnNotice */ 124));
-var _countDown = _interopRequireDefault(__webpack_require__(/*! ./props/countDown */ 125));
-var _countTo = _interopRequireDefault(__webpack_require__(/*! ./props/countTo */ 126));
-var _datetimePicker = _interopRequireDefault(__webpack_require__(/*! ./props/datetimePicker */ 127));
-var _divider = _interopRequireDefault(__webpack_require__(/*! ./props/divider */ 128));
-var _empty = _interopRequireDefault(__webpack_require__(/*! ./props/empty */ 129));
-var _form = _interopRequireDefault(__webpack_require__(/*! ./props/form */ 130));
-var _formItem = _interopRequireDefault(__webpack_require__(/*! ./props/formItem */ 131));
-var _gap = _interopRequireDefault(__webpack_require__(/*! ./props/gap */ 132));
-var _grid = _interopRequireDefault(__webpack_require__(/*! ./props/grid */ 133));
-var _gridItem = _interopRequireDefault(__webpack_require__(/*! ./props/gridItem */ 134));
-var _icon = _interopRequireDefault(__webpack_require__(/*! ./props/icon */ 135));
-var _image = _interopRequireDefault(__webpack_require__(/*! ./props/image */ 136));
-var _indexAnchor = _interopRequireDefault(__webpack_require__(/*! ./props/indexAnchor */ 137));
-var _indexList = _interopRequireDefault(__webpack_require__(/*! ./props/indexList */ 138));
-var _input = _interopRequireDefault(__webpack_require__(/*! ./props/input */ 139));
-var _keyboard = _interopRequireDefault(__webpack_require__(/*! ./props/keyboard */ 140));
-var _line = _interopRequireDefault(__webpack_require__(/*! ./props/line */ 141));
-var _lineProgress = _interopRequireDefault(__webpack_require__(/*! ./props/lineProgress */ 142));
-var _link = _interopRequireDefault(__webpack_require__(/*! ./props/link */ 143));
-var _list = _interopRequireDefault(__webpack_require__(/*! ./props/list */ 144));
-var _listItem = _interopRequireDefault(__webpack_require__(/*! ./props/listItem */ 145));
-var _loadingIcon = _interopRequireDefault(__webpack_require__(/*! ./props/loadingIcon */ 146));
-var _loadingPage = _interopRequireDefault(__webpack_require__(/*! ./props/loadingPage */ 147));
-var _loadmore = _interopRequireDefault(__webpack_require__(/*! ./props/loadmore */ 148));
-var _modal = _interopRequireDefault(__webpack_require__(/*! ./props/modal */ 149));
-var _navbar = _interopRequireDefault(__webpack_require__(/*! ./props/navbar */ 150));
-var _noNetwork = _interopRequireDefault(__webpack_require__(/*! ./props/noNetwork */ 152));
-var _noticeBar = _interopRequireDefault(__webpack_require__(/*! ./props/noticeBar */ 153));
-var _notify = _interopRequireDefault(__webpack_require__(/*! ./props/notify */ 154));
-var _numberBox = _interopRequireDefault(__webpack_require__(/*! ./props/numberBox */ 155));
-var _numberKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/numberKeyboard */ 156));
-var _overlay = _interopRequireDefault(__webpack_require__(/*! ./props/overlay */ 157));
-var _parse = _interopRequireDefault(__webpack_require__(/*! ./props/parse */ 158));
-var _picker = _interopRequireDefault(__webpack_require__(/*! ./props/picker */ 159));
-var _popup = _interopRequireDefault(__webpack_require__(/*! ./props/popup */ 160));
-var _radio = _interopRequireDefault(__webpack_require__(/*! ./props/radio */ 161));
-var _radioGroup = _interopRequireDefault(__webpack_require__(/*! ./props/radioGroup */ 162));
-var _rate = _interopRequireDefault(__webpack_require__(/*! ./props/rate */ 163));
-var _readMore = _interopRequireDefault(__webpack_require__(/*! ./props/readMore */ 164));
-var _row = _interopRequireDefault(__webpack_require__(/*! ./props/row */ 165));
-var _rowNotice = _interopRequireDefault(__webpack_require__(/*! ./props/rowNotice */ 166));
-var _scrollList = _interopRequireDefault(__webpack_require__(/*! ./props/scrollList */ 167));
-var _search = _interopRequireDefault(__webpack_require__(/*! ./props/search */ 168));
-var _section = _interopRequireDefault(__webpack_require__(/*! ./props/section */ 169));
-var _skeleton = _interopRequireDefault(__webpack_require__(/*! ./props/skeleton */ 170));
-var _slider = _interopRequireDefault(__webpack_require__(/*! ./props/slider */ 171));
-var _statusBar = _interopRequireDefault(__webpack_require__(/*! ./props/statusBar */ 172));
-var _steps = _interopRequireDefault(__webpack_require__(/*! ./props/steps */ 173));
-var _stepsItem = _interopRequireDefault(__webpack_require__(/*! ./props/stepsItem */ 174));
-var _sticky = _interopRequireDefault(__webpack_require__(/*! ./props/sticky */ 175));
-var _subsection = _interopRequireDefault(__webpack_require__(/*! ./props/subsection */ 176));
-var _swipeAction = _interopRequireDefault(__webpack_require__(/*! ./props/swipeAction */ 177));
-var _swipeActionItem = _interopRequireDefault(__webpack_require__(/*! ./props/swipeActionItem */ 178));
-var _swiper = _interopRequireDefault(__webpack_require__(/*! ./props/swiper */ 179));
-var _swipterIndicator = _interopRequireDefault(__webpack_require__(/*! ./props/swipterIndicator */ 180));
-var _switch2 = _interopRequireDefault(__webpack_require__(/*! ./props/switch */ 181));
-var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./props/tabbar */ 182));
-var _tabbarItem = _interopRequireDefault(__webpack_require__(/*! ./props/tabbarItem */ 183));
-var _tabs = _interopRequireDefault(__webpack_require__(/*! ./props/tabs */ 184));
-var _tag = _interopRequireDefault(__webpack_require__(/*! ./props/tag */ 185));
-var _text = _interopRequireDefault(__webpack_require__(/*! ./props/text */ 186));
-var _textarea = _interopRequireDefault(__webpack_require__(/*! ./props/textarea */ 187));
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./props/toast */ 188));
-var _toolbar = _interopRequireDefault(__webpack_require__(/*! ./props/toolbar */ 189));
-var _tooltip = _interopRequireDefault(__webpack_require__(/*! ./props/tooltip */ 190));
-var _transition = _interopRequireDefault(__webpack_require__(/*! ./props/transition */ 191));
-var _upload = _interopRequireDefault(__webpack_require__(/*! ./props/upload */ 192));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./config */ 65));
+var _actionSheet = _interopRequireDefault(__webpack_require__(/*! ./props/actionSheet.js */ 67));
+var _album = _interopRequireDefault(__webpack_require__(/*! ./props/album.js */ 68));
+var _alert = _interopRequireDefault(__webpack_require__(/*! ./props/alert.js */ 69));
+var _avatar = _interopRequireDefault(__webpack_require__(/*! ./props/avatar */ 70));
+var _avatarGroup = _interopRequireDefault(__webpack_require__(/*! ./props/avatarGroup */ 71));
+var _backtop = _interopRequireDefault(__webpack_require__(/*! ./props/backtop */ 72));
+var _badge = _interopRequireDefault(__webpack_require__(/*! ./props/badge */ 73));
+var _button = _interopRequireDefault(__webpack_require__(/*! ./props/button */ 74));
+var _calendar = _interopRequireDefault(__webpack_require__(/*! ./props/calendar */ 75));
+var _carKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/carKeyboard */ 76));
+var _cell = _interopRequireDefault(__webpack_require__(/*! ./props/cell */ 77));
+var _cellGroup = _interopRequireDefault(__webpack_require__(/*! ./props/cellGroup */ 78));
+var _checkbox = _interopRequireDefault(__webpack_require__(/*! ./props/checkbox */ 79));
+var _checkboxGroup = _interopRequireDefault(__webpack_require__(/*! ./props/checkboxGroup */ 80));
+var _circleProgress = _interopRequireDefault(__webpack_require__(/*! ./props/circleProgress */ 81));
+var _code = _interopRequireDefault(__webpack_require__(/*! ./props/code */ 82));
+var _codeInput = _interopRequireDefault(__webpack_require__(/*! ./props/codeInput */ 83));
+var _col = _interopRequireDefault(__webpack_require__(/*! ./props/col */ 84));
+var _collapse = _interopRequireDefault(__webpack_require__(/*! ./props/collapse */ 85));
+var _collapseItem = _interopRequireDefault(__webpack_require__(/*! ./props/collapseItem */ 86));
+var _columnNotice = _interopRequireDefault(__webpack_require__(/*! ./props/columnNotice */ 87));
+var _countDown = _interopRequireDefault(__webpack_require__(/*! ./props/countDown */ 88));
+var _countTo = _interopRequireDefault(__webpack_require__(/*! ./props/countTo */ 89));
+var _datetimePicker = _interopRequireDefault(__webpack_require__(/*! ./props/datetimePicker */ 90));
+var _divider = _interopRequireDefault(__webpack_require__(/*! ./props/divider */ 91));
+var _empty = _interopRequireDefault(__webpack_require__(/*! ./props/empty */ 92));
+var _form = _interopRequireDefault(__webpack_require__(/*! ./props/form */ 93));
+var _formItem = _interopRequireDefault(__webpack_require__(/*! ./props/formItem */ 94));
+var _gap = _interopRequireDefault(__webpack_require__(/*! ./props/gap */ 95));
+var _grid = _interopRequireDefault(__webpack_require__(/*! ./props/grid */ 96));
+var _gridItem = _interopRequireDefault(__webpack_require__(/*! ./props/gridItem */ 97));
+var _icon = _interopRequireDefault(__webpack_require__(/*! ./props/icon */ 98));
+var _image = _interopRequireDefault(__webpack_require__(/*! ./props/image */ 99));
+var _indexAnchor = _interopRequireDefault(__webpack_require__(/*! ./props/indexAnchor */ 100));
+var _indexList = _interopRequireDefault(__webpack_require__(/*! ./props/indexList */ 101));
+var _input = _interopRequireDefault(__webpack_require__(/*! ./props/input */ 102));
+var _keyboard = _interopRequireDefault(__webpack_require__(/*! ./props/keyboard */ 103));
+var _line = _interopRequireDefault(__webpack_require__(/*! ./props/line */ 104));
+var _lineProgress = _interopRequireDefault(__webpack_require__(/*! ./props/lineProgress */ 105));
+var _link = _interopRequireDefault(__webpack_require__(/*! ./props/link */ 106));
+var _list = _interopRequireDefault(__webpack_require__(/*! ./props/list */ 107));
+var _listItem = _interopRequireDefault(__webpack_require__(/*! ./props/listItem */ 108));
+var _loadingIcon = _interopRequireDefault(__webpack_require__(/*! ./props/loadingIcon */ 109));
+var _loadingPage = _interopRequireDefault(__webpack_require__(/*! ./props/loadingPage */ 110));
+var _loadmore = _interopRequireDefault(__webpack_require__(/*! ./props/loadmore */ 111));
+var _modal = _interopRequireDefault(__webpack_require__(/*! ./props/modal */ 112));
+var _navbar = _interopRequireDefault(__webpack_require__(/*! ./props/navbar */ 113));
+var _noNetwork = _interopRequireDefault(__webpack_require__(/*! ./props/noNetwork */ 115));
+var _noticeBar = _interopRequireDefault(__webpack_require__(/*! ./props/noticeBar */ 116));
+var _notify = _interopRequireDefault(__webpack_require__(/*! ./props/notify */ 117));
+var _numberBox = _interopRequireDefault(__webpack_require__(/*! ./props/numberBox */ 118));
+var _numberKeyboard = _interopRequireDefault(__webpack_require__(/*! ./props/numberKeyboard */ 119));
+var _overlay = _interopRequireDefault(__webpack_require__(/*! ./props/overlay */ 120));
+var _parse = _interopRequireDefault(__webpack_require__(/*! ./props/parse */ 121));
+var _picker = _interopRequireDefault(__webpack_require__(/*! ./props/picker */ 122));
+var _popup = _interopRequireDefault(__webpack_require__(/*! ./props/popup */ 123));
+var _radio = _interopRequireDefault(__webpack_require__(/*! ./props/radio */ 124));
+var _radioGroup = _interopRequireDefault(__webpack_require__(/*! ./props/radioGroup */ 125));
+var _rate = _interopRequireDefault(__webpack_require__(/*! ./props/rate */ 126));
+var _readMore = _interopRequireDefault(__webpack_require__(/*! ./props/readMore */ 127));
+var _row = _interopRequireDefault(__webpack_require__(/*! ./props/row */ 128));
+var _rowNotice = _interopRequireDefault(__webpack_require__(/*! ./props/rowNotice */ 129));
+var _scrollList = _interopRequireDefault(__webpack_require__(/*! ./props/scrollList */ 130));
+var _search = _interopRequireDefault(__webpack_require__(/*! ./props/search */ 131));
+var _section = _interopRequireDefault(__webpack_require__(/*! ./props/section */ 132));
+var _skeleton = _interopRequireDefault(__webpack_require__(/*! ./props/skeleton */ 133));
+var _slider = _interopRequireDefault(__webpack_require__(/*! ./props/slider */ 134));
+var _statusBar = _interopRequireDefault(__webpack_require__(/*! ./props/statusBar */ 135));
+var _steps = _interopRequireDefault(__webpack_require__(/*! ./props/steps */ 136));
+var _stepsItem = _interopRequireDefault(__webpack_require__(/*! ./props/stepsItem */ 137));
+var _sticky = _interopRequireDefault(__webpack_require__(/*! ./props/sticky */ 138));
+var _subsection = _interopRequireDefault(__webpack_require__(/*! ./props/subsection */ 139));
+var _swipeAction = _interopRequireDefault(__webpack_require__(/*! ./props/swipeAction */ 140));
+var _swipeActionItem = _interopRequireDefault(__webpack_require__(/*! ./props/swipeActionItem */ 141));
+var _swiper = _interopRequireDefault(__webpack_require__(/*! ./props/swiper */ 142));
+var _swipterIndicator = _interopRequireDefault(__webpack_require__(/*! ./props/swipterIndicator */ 143));
+var _switch2 = _interopRequireDefault(__webpack_require__(/*! ./props/switch */ 144));
+var _tabbar = _interopRequireDefault(__webpack_require__(/*! ./props/tabbar */ 145));
+var _tabbarItem = _interopRequireDefault(__webpack_require__(/*! ./props/tabbarItem */ 146));
+var _tabs = _interopRequireDefault(__webpack_require__(/*! ./props/tabs */ 147));
+var _tag = _interopRequireDefault(__webpack_require__(/*! ./props/tag */ 148));
+var _text = _interopRequireDefault(__webpack_require__(/*! ./props/text */ 149));
+var _textarea = _interopRequireDefault(__webpack_require__(/*! ./props/textarea */ 150));
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./props/toast */ 151));
+var _toolbar = _interopRequireDefault(__webpack_require__(/*! ./props/toolbar */ 152));
+var _tooltip = _interopRequireDefault(__webpack_require__(/*! ./props/tooltip */ 153));
+var _transition = _interopRequireDefault(__webpack_require__(/*! ./props/transition */ 154));
+var _upload = _interopRequireDefault(__webpack_require__(/*! ./props/upload */ 155));
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var color = _config.default.color;
@@ -15301,7 +15264,7 @@ var _default = _objectSpread(_objectSpread(_objectSpread(_objectSpread(_objectSp
 exports.default = _default;
 
 /***/ }),
-/* 104 */
+/* 67 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
   \***********************************************************************************/
@@ -15345,7 +15308,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 105 */
+/* 68 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/album.js ***!
   \*****************************************************************************/
@@ -15389,7 +15352,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 106 */
+/* 69 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/alert.js ***!
   \*****************************************************************************/
@@ -15428,7 +15391,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 107 */
+/* 70 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/avatar.js ***!
   \******************************************************************************/
@@ -15473,7 +15436,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 108 */
+/* 71 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
   \***********************************************************************************/
@@ -15515,7 +15478,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 109 */
+/* 72 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/backtop.js ***!
   \*******************************************************************************/
@@ -15561,7 +15524,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 110 */
+/* 73 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/badge.js ***!
   \*****************************************************************************/
@@ -15607,7 +15570,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 111 */
+/* 74 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/button.js ***!
   \******************************************************************************/
@@ -15666,7 +15629,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 112 */
+/* 75 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/calendar.js ***!
   \********************************************************************************/
@@ -15729,7 +15692,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 113 */
+/* 76 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
   \***********************************************************************************/
@@ -15761,7 +15724,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 114 */
+/* 77 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/cell.js ***!
   \****************************************************************************/
@@ -15813,7 +15776,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 115 */
+/* 78 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
   \*********************************************************************************/
@@ -15847,7 +15810,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 116 */
+/* 79 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
   \********************************************************************************/
@@ -15891,7 +15854,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 117 */
+/* 80 */
 /*!*************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
   \*************************************************************************************/
@@ -15939,7 +15902,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 118 */
+/* 81 */
 /*!**************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
   \**************************************************************************************/
@@ -15971,7 +15934,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 119 */
+/* 82 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/code.js ***!
   \****************************************************************************/
@@ -16008,7 +15971,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 120 */
+/* 83 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
   \*********************************************************************************/
@@ -16054,7 +16017,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 121 */
+/* 84 */
 /*!***************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/col.js ***!
   \***************************************************************************/
@@ -16090,7 +16053,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 122 */
+/* 85 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/collapse.js ***!
   \********************************************************************************/
@@ -16124,7 +16087,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 123 */
+/* 86 */
 /*!************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
   \************************************************************************************/
@@ -16166,7 +16129,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 124 */
+/* 87 */
 /*!************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
   \************************************************************************************/
@@ -16207,7 +16170,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 125 */
+/* 88 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/countDown.js ***!
   \*********************************************************************************/
@@ -16242,7 +16205,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 126 */
+/* 89 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/countTo.js ***!
   \*******************************************************************************/
@@ -16284,7 +16247,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 127 */
+/* 90 */
 /*!**************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
   \**************************************************************************************/
@@ -16339,7 +16302,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 128 */
+/* 91 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/divider.js ***!
   \*******************************************************************************/
@@ -16378,7 +16341,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 129 */
+/* 92 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/empty.js ***!
   \*****************************************************************************/
@@ -16420,7 +16383,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 130 */
+/* 93 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/form.js ***!
   \****************************************************************************/
@@ -16465,7 +16428,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 131 */
+/* 94 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/formItem.js ***!
   \********************************************************************************/
@@ -16505,7 +16468,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 132 */
+/* 95 */
 /*!***************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/gap.js ***!
   \***************************************************************************/
@@ -16541,7 +16504,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 133 */
+/* 96 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/grid.js ***!
   \****************************************************************************/
@@ -16575,7 +16538,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 134 */
+/* 97 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
   \********************************************************************************/
@@ -16608,7 +16571,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 135 */
+/* 98 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/icon.js ***!
   \****************************************************************************/
@@ -16623,7 +16586,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 102));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 65));
 /*
  * @Author       : LQ
  * @Description  :
@@ -16660,7 +16623,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 136 */
+/* 99 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/image.js ***!
   \*****************************************************************************/
@@ -16707,7 +16670,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 137 */
+/* 100 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
   \***********************************************************************************/
@@ -16743,7 +16706,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 138 */
+/* 101 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/indexList.js ***!
   \*********************************************************************************/
@@ -16781,7 +16744,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 139 */
+/* 102 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/input.js ***!
   \*****************************************************************************/
@@ -16846,7 +16809,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 140 */
+/* 103 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
   \********************************************************************************/
@@ -16893,7 +16856,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 141 */
+/* 104 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/line.js ***!
   \****************************************************************************/
@@ -16930,7 +16893,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 142 */
+/* 105 */
 /*!************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
   \************************************************************************************/
@@ -16966,7 +16929,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 143 */
+/* 106 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/link.js ***!
   \****************************************************************************/
@@ -16981,7 +16944,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 102));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 65));
 /*
  * @Author       : LQ
  * @Description  :
@@ -17008,7 +16971,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 144 */
+/* 107 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/list.js ***!
   \****************************************************************************/
@@ -17053,7 +17016,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 145 */
+/* 108 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/listItem.js ***!
   \********************************************************************************/
@@ -17085,7 +17048,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 146 */
+/* 109 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
   \***********************************************************************************/
@@ -17100,7 +17063,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 102));
+var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 65));
 /*
  * @Author       : LQ
  * @Description  :
@@ -17131,7 +17094,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 147 */
+/* 110 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
   \***********************************************************************************/
@@ -17171,7 +17134,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 148 */
+/* 111 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
   \********************************************************************************/
@@ -17220,7 +17183,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 149 */
+/* 112 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/modal.js ***!
   \*****************************************************************************/
@@ -17267,7 +17230,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 150 */
+/* 113 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/navbar.js ***!
   \******************************************************************************/
@@ -17282,7 +17245,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 151));
+var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 114));
 /*
  * @Author       : LQ
  * @Description  :
@@ -17316,7 +17279,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 151 */
+/* 114 */
 /*!***********************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/color.js ***!
   \***********************************************************************/
@@ -17349,7 +17312,7 @@ var _default = color;
 exports.default = _default;
 
 /***/ }),
-/* 152 */
+/* 115 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
   \*********************************************************************************/
@@ -17383,7 +17346,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 153 */
+/* 116 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
   \*********************************************************************************/
@@ -17429,7 +17392,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 154 */
+/* 117 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/notify.js ***!
   \******************************************************************************/
@@ -17468,7 +17431,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 155 */
+/* 118 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
   \*********************************************************************************/
@@ -17520,7 +17483,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 156 */
+/* 119 */
 /*!**************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
   \**************************************************************************************/
@@ -17554,7 +17517,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 157 */
+/* 120 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/overlay.js ***!
   \*******************************************************************************/
@@ -17589,7 +17552,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 158 */
+/* 121 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/parse.js ***!
   \*****************************************************************************/
@@ -17628,7 +17591,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 159 */
+/* 122 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/picker.js ***!
   \******************************************************************************/
@@ -17678,7 +17641,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 160 */
+/* 123 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/popup.js ***!
   \*****************************************************************************/
@@ -17724,7 +17687,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 161 */
+/* 124 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/radio.js ***!
   \*****************************************************************************/
@@ -17768,7 +17731,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 162 */
+/* 125 */
 /*!**********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
   \**********************************************************************************/
@@ -17815,7 +17778,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 163 */
+/* 126 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/rate.js ***!
   \****************************************************************************/
@@ -17858,7 +17821,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 164 */
+/* 127 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/readMore.js ***!
   \********************************************************************************/
@@ -17897,7 +17860,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 165 */
+/* 128 */
 /*!***************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/row.js ***!
   \***************************************************************************/
@@ -17931,7 +17894,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 166 */
+/* 129 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
   \*********************************************************************************/
@@ -17969,7 +17932,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 167 */
+/* 130 */
 /*!**********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
   \**********************************************************************************/
@@ -18006,7 +17969,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 168 */
+/* 131 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/search.js ***!
   \******************************************************************************/
@@ -18064,7 +18027,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 169 */
+/* 132 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/section.js ***!
   \*******************************************************************************/
@@ -18105,7 +18068,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 170 */
+/* 133 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
   \********************************************************************************/
@@ -18147,7 +18110,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 171 */
+/* 134 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/slider.js ***!
   \******************************************************************************/
@@ -18189,7 +18152,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 172 */
+/* 135 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
   \*********************************************************************************/
@@ -18221,7 +18184,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 173 */
+/* 136 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/steps.js ***!
   \*****************************************************************************/
@@ -18259,7 +18222,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 174 */
+/* 137 */
 /*!*********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
   \*********************************************************************************/
@@ -18294,7 +18257,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 175 */
+/* 138 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/sticky.js ***!
   \******************************************************************************/
@@ -18331,7 +18294,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 176 */
+/* 139 */
 /*!**********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/subsection.js ***!
   \**********************************************************************************/
@@ -18371,7 +18334,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 177 */
+/* 140 */
 /*!***********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
   \***********************************************************************************/
@@ -18403,7 +18366,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 178 */
+/* 141 */
 /*!***************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
   \***************************************************************************************/
@@ -18441,7 +18404,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 179 */
+/* 142 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/swiper.js ***!
   \******************************************************************************/
@@ -18498,7 +18461,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 180 */
+/* 143 */
 /*!****************************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
   \****************************************************************************************/
@@ -18534,7 +18497,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 181 */
+/* 144 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/switch.js ***!
   \******************************************************************************/
@@ -18575,7 +18538,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 182 */
+/* 145 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
   \******************************************************************************/
@@ -18614,7 +18577,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 183 */
+/* 146 */
 /*!**********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
   \**********************************************************************************/
@@ -18651,7 +18614,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 184 */
+/* 147 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/tabs.js ***!
   \****************************************************************************/
@@ -18708,7 +18671,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 185 */
+/* 148 */
 /*!***************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/tag.js ***!
   \***************************************************************************/
@@ -18754,7 +18717,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 186 */
+/* 149 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/text.js ***!
   \****************************************************************************/
@@ -18810,7 +18773,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 187 */
+/* 150 */
 /*!********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/textarea.js ***!
   \********************************************************************************/
@@ -18863,7 +18826,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 188 */
+/* 151 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/toast.js ***!
   \*****************************************************************************/
@@ -18909,7 +18872,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 189 */
+/* 152 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
   \*******************************************************************************/
@@ -18946,7 +18909,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 190 */
+/* 153 */
 /*!*******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
   \*******************************************************************************/
@@ -18990,7 +18953,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 191 */
+/* 154 */
 /*!**********************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/transition.js ***!
   \**********************************************************************************/
@@ -19025,7 +18988,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 192 */
+/* 155 */
 /*!******************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/props/upload.js ***!
   \******************************************************************************/
@@ -19084,7 +19047,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 193 */
+/* 156 */
 /*!************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/config/zIndex.js ***!
   \************************************************************************/
@@ -19120,7 +19083,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 194 */
+/* 157 */
 /*!****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/function/platform.js ***!
   \****************************************************************************/
@@ -19150,6 +19113,43 @@ var _default = platform;
 exports.default = _default;
 
 /***/ }),
+/* 158 */,
+/* 159 */,
+/* 160 */,
+/* 161 */,
+/* 162 */,
+/* 163 */,
+/* 164 */,
+/* 165 */,
+/* 166 */,
+/* 167 */,
+/* 168 */,
+/* 169 */,
+/* 170 */,
+/* 171 */,
+/* 172 */,
+/* 173 */,
+/* 174 */,
+/* 175 */,
+/* 176 */,
+/* 177 */,
+/* 178 */,
+/* 179 */,
+/* 180 */,
+/* 181 */,
+/* 182 */,
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */,
+/* 189 */,
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
 /* 195 */,
 /* 196 */,
 /* 197 */,
@@ -19158,88 +19158,7 @@ exports.default = _default;
 /* 200 */,
 /* 201 */,
 /* 202 */,
-/* 203 */
-/*!*****************************************************************************!*\
-  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-tabs/props.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 滑块的移动过渡时间，单位ms
-    duration: {
-      type: Number,
-      default: uni.$u.props.tabs.duration
-    },
-    // tabs标签数组
-    list: {
-      type: Array,
-      default: uni.$u.props.tabs.list
-    },
-    // 滑块颜色
-    lineColor: {
-      type: String,
-      default: uni.$u.props.tabs.lineColor
-    },
-    // 菜单选择中时的样式
-    activeStyle: {
-      type: [String, Object],
-      default: uni.$u.props.tabs.activeStyle
-    },
-    // 菜单非选中时的样式
-    inactiveStyle: {
-      type: [String, Object],
-      default: uni.$u.props.tabs.inactiveStyle
-    },
-    // 滑块长度
-    lineWidth: {
-      type: [String, Number],
-      default: uni.$u.props.tabs.lineWidth
-    },
-    // 滑块高度
-    lineHeight: {
-      type: [String, Number],
-      default: uni.$u.props.tabs.lineHeight
-    },
-    // 滑块背景显示大小，当滑块背景设置为图片时使用
-    lineBgSize: {
-      type: String,
-      default: uni.$u.props.tabs.lineBgSize
-    },
-    // 菜单item的样式
-    itemStyle: {
-      type: [String, Object],
-      default: uni.$u.props.tabs.itemStyle
-    },
-    // 菜单是否可滚动
-    scrollable: {
-      type: Boolean,
-      default: uni.$u.props.tabs.scrollable
-    },
-    // 当前选中标签的索引
-    current: {
-      type: [Number, String],
-      default: uni.$u.props.tabs.current
-    },
-    // 默认读取的键名
-    keyName: {
-      type: String,
-      default: uni.$u.props.tabs.keyName
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
+/* 203 */,
 /* 204 */,
 /* 205 */,
 /* 206 */,
@@ -19247,132 +19166,9 @@ exports.default = _default;
 /* 208 */,
 /* 209 */,
 /* 210 */,
-/* 211 */
-/*!******************************************************************************!*\
-  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-badge/props.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 是否显示圆点
-    isDot: {
-      type: Boolean,
-      default: uni.$u.props.badge.isDot
-    },
-    // 显示的内容
-    value: {
-      type: [Number, String],
-      default: uni.$u.props.badge.value
-    },
-    // 是否显示
-    show: {
-      type: Boolean,
-      default: uni.$u.props.badge.show
-    },
-    // 最大值，超过最大值会显示 '{max}+'
-    max: {
-      type: [Number, String],
-      default: uni.$u.props.badge.max
-    },
-    // 主题类型，error|warning|success|primary
-    type: {
-      type: String,
-      default: uni.$u.props.badge.type
-    },
-    // 当数值为 0 时，是否展示 Badge
-    showZero: {
-      type: Boolean,
-      default: uni.$u.props.badge.showZero
-    },
-    // 背景颜色，优先级比type高，如设置，type参数会失效
-    bgColor: {
-      type: [String, null],
-      default: uni.$u.props.badge.bgColor
-    },
-    // 字体颜色
-    color: {
-      type: [String, null],
-      default: uni.$u.props.badge.color
-    },
-    // 徽标形状，circle-四角均为圆角，horn-左下角为直角
-    shape: {
-      type: String,
-      default: uni.$u.props.badge.shape
-    },
-    // 设置数字的显示方式，overflow|ellipsis|limit
-    // overflow会根据max字段判断，超出显示`${max}+`
-    // ellipsis会根据max判断，超出显示`${max}...`
-    // limit会依据1000作为判断条件，超出1000，显示`${value/1000}K`，比如2.2k、3.34w，最多保留2位小数
-    numberType: {
-      type: String,
-      default: uni.$u.props.badge.numberType
-    },
-    // 设置badge的位置偏移，格式为 [x, y]，也即设置的为top和right的值，absolute为true时有效
-    offset: {
-      type: Array,
-      default: uni.$u.props.badge.offset
-    },
-    // 是否反转背景和字体颜色
-    inverted: {
-      type: Boolean,
-      default: uni.$u.props.badge.inverted
-    },
-    // 是否绝对定位
-    absolute: {
-      type: Boolean,
-      default: uni.$u.props.badge.absolute
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
+/* 211 */,
 /* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */
+/* 213 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \*****************************************************************************/
@@ -19603,7 +19399,7 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 248 */
+/* 214 */
 /*!*****************************************************************************!*\
   !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-icon/props.js ***!
   \*****************************************************************************/
@@ -19703,6 +19499,400 @@ var _default = {
     stop: {
       type: Boolean,
       default: uni.$u.props.icon.stop
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */
+/*!*****************************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-tabs/props.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 滑块的移动过渡时间，单位ms
+    duration: {
+      type: Number,
+      default: uni.$u.props.tabs.duration
+    },
+    // tabs标签数组
+    list: {
+      type: Array,
+      default: uni.$u.props.tabs.list
+    },
+    // 滑块颜色
+    lineColor: {
+      type: String,
+      default: uni.$u.props.tabs.lineColor
+    },
+    // 菜单选择中时的样式
+    activeStyle: {
+      type: [String, Object],
+      default: uni.$u.props.tabs.activeStyle
+    },
+    // 菜单非选中时的样式
+    inactiveStyle: {
+      type: [String, Object],
+      default: uni.$u.props.tabs.inactiveStyle
+    },
+    // 滑块长度
+    lineWidth: {
+      type: [String, Number],
+      default: uni.$u.props.tabs.lineWidth
+    },
+    // 滑块高度
+    lineHeight: {
+      type: [String, Number],
+      default: uni.$u.props.tabs.lineHeight
+    },
+    // 滑块背景显示大小，当滑块背景设置为图片时使用
+    lineBgSize: {
+      type: String,
+      default: uni.$u.props.tabs.lineBgSize
+    },
+    // 菜单item的样式
+    itemStyle: {
+      type: [String, Object],
+      default: uni.$u.props.tabs.itemStyle
+    },
+    // 菜单是否可滚动
+    scrollable: {
+      type: Boolean,
+      default: uni.$u.props.tabs.scrollable
+    },
+    // 当前选中标签的索引
+    current: {
+      type: [Number, String],
+      default: uni.$u.props.tabs.current
+    },
+    // 默认读取的键名
+    keyName: {
+      type: String,
+      default: uni.$u.props.tabs.keyName
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */
+/*!*************************************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-swipe-action/props.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 是否自动关闭其他swipe按钮组
+    autoClose: {
+      type: Boolean,
+      default: uni.$u.props.swipeAction.autoClose
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */
+/*!**********************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/libs/mixin/touch.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var MIN_DISTANCE = 10;
+function getDirection(x, y) {
+  if (x > y && x > MIN_DISTANCE) {
+    return 'horizontal';
+  }
+  if (y > x && y > MIN_DISTANCE) {
+    return 'vertical';
+  }
+  return '';
+}
+var _default = {
+  methods: {
+    getTouchPoint: function getTouchPoint(e) {
+      if (!e) {
+        return {
+          x: 0,
+          y: 0
+        };
+      }
+      if (e.touches && e.touches[0]) {
+        return {
+          x: e.touches[0].pageX,
+          y: e.touches[0].pageY
+        };
+      }
+      if (e.changedTouches && e.changedTouches[0]) {
+        return {
+          x: e.changedTouches[0].pageX,
+          y: e.changedTouches[0].pageY
+        };
+      }
+      return {
+        x: e.clientX || 0,
+        y: e.clientY || 0
+      };
+    },
+    resetTouchStatus: function resetTouchStatus() {
+      this.direction = '';
+      this.deltaX = 0;
+      this.deltaY = 0;
+      this.offsetX = 0;
+      this.offsetY = 0;
+    },
+    touchStart: function touchStart(event) {
+      this.resetTouchStatus();
+      var touch = this.getTouchPoint(event);
+      this.startX = touch.x;
+      this.startY = touch.y;
+    },
+    touchMove: function touchMove(event) {
+      var touch = this.getTouchPoint(event);
+      this.deltaX = touch.x - this.startX;
+      this.deltaY = touch.y - this.startY;
+      this.offsetX = Math.abs(this.deltaX);
+      this.offsetY = Math.abs(this.deltaY);
+      this.direction = this.direction || getDirection(this.offsetX, this.offsetY);
+    }
+  }
+};
+exports.default = _default;
+
+/***/ }),
+/* 237 */
+/*!******************************************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-swipe-action-item/props.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default2 = {
+  props: {
+    // 控制打开或者关闭
+    show: {
+      type: Boolean,
+      default: uni.$u.props.swipeActionItem.show
+    },
+    // 标识符，如果是v-for，可用index索引值
+    name: {
+      type: [String, Number],
+      default: uni.$u.props.swipeActionItem.name
+    },
+    // 是否禁用
+    disabled: {
+      type: Boolean,
+      default: uni.$u.props.swipeActionItem.disabled
+    },
+    // 是否自动关闭其他swipe按钮组
+    autoClose: {
+      type: Boolean,
+      default: uni.$u.props.swipeActionItem.autoClose
+    },
+    // 滑动距离阈值，只有大于此值，才被认为是要打开菜单
+    threshold: {
+      type: Number,
+      default: uni.$u.props.swipeActionItem.threshold
+    },
+    // 右侧按钮内容
+    options: {
+      type: Array,
+      default: function _default() {
+        return uni.$u.props.swipeActionItem.rightOptions;
+      }
+    },
+    // 动画过渡时间，单位ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.swipeActionItem.duration
+    }
+  }
+};
+exports.default = _default2;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 238 */
+/*!****************************************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-swipe-action-item/wxs.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  methods: {
+    // 关闭时执行
+    closeHandler: function closeHandler() {
+      this.status = 'close';
+    },
+    setState: function setState(status) {
+      this.status = status;
+    },
+    closeOther: function closeOther() {
+      // 尝试关闭其他打开的单元格
+      this.parent && this.parent.closeOther(this);
+    }
+  }
+};
+exports.default = _default;
+
+/***/ }),
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */
+/*!******************************************************************************!*\
+  !*** X:/毕设/Movie35/Movie35/uni_modules/uview-ui/components/u-badge/props.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 是否显示圆点
+    isDot: {
+      type: Boolean,
+      default: uni.$u.props.badge.isDot
+    },
+    // 显示的内容
+    value: {
+      type: [Number, String],
+      default: uni.$u.props.badge.value
+    },
+    // 是否显示
+    show: {
+      type: Boolean,
+      default: uni.$u.props.badge.show
+    },
+    // 最大值，超过最大值会显示 '{max}+'
+    max: {
+      type: [Number, String],
+      default: uni.$u.props.badge.max
+    },
+    // 主题类型，error|warning|success|primary
+    type: {
+      type: String,
+      default: uni.$u.props.badge.type
+    },
+    // 当数值为 0 时，是否展示 Badge
+    showZero: {
+      type: Boolean,
+      default: uni.$u.props.badge.showZero
+    },
+    // 背景颜色，优先级比type高，如设置，type参数会失效
+    bgColor: {
+      type: [String, null],
+      default: uni.$u.props.badge.bgColor
+    },
+    // 字体颜色
+    color: {
+      type: [String, null],
+      default: uni.$u.props.badge.color
+    },
+    // 徽标形状，circle-四角均为圆角，horn-左下角为直角
+    shape: {
+      type: String,
+      default: uni.$u.props.badge.shape
+    },
+    // 设置数字的显示方式，overflow|ellipsis|limit
+    // overflow会根据max字段判断，超出显示`${max}+`
+    // ellipsis会根据max判断，超出显示`${max}...`
+    // limit会依据1000作为判断条件，超出1000，显示`${value/1000}K`，比如2.2k、3.34w，最多保留2位小数
+    numberType: {
+      type: String,
+      default: uni.$u.props.badge.numberType
+    },
+    // 设置badge的位置偏移，格式为 [x, y]，也即设置的为top和right的值，absolute为true时有效
+    offset: {
+      type: Array,
+      default: uni.$u.props.badge.offset
+    },
+    // 是否反转背景和字体颜色
+    inverted: {
+      type: Boolean,
+      default: uni.$u.props.badge.inverted
+    },
+    // 是否绝对定位
+    absolute: {
+      type: Boolean,
+      default: uni.$u.props.badge.absolute
     }
   }
 };

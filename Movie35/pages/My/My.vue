@@ -30,7 +30,7 @@
 		</view>
 	
 		<!-- 功能row -->
-		<view class="functionRow" v-for="item in list3" :key="id">
+		<view class="functionRow" v-for="item in list3" :key="id" @click="goFun(`${item.id}`)">
 			<view class="functionItem">
 				<view class="functionPic">
 					<u-icon name="list"></u-icon> 
@@ -86,6 +86,13 @@
 			}else{
 				me.userIsLogin = false;
 				me.userInfo  = {};
+			}
+		},
+		methods:{
+			goFun(id){
+				uni.navigateTo({
+					url:"/pages/funPage/funPage?id="+id
+				})
 			}
 		}
 			

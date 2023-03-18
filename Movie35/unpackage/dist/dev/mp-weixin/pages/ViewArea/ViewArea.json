@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "观赏区",
-  "navigationBarTextStyle": "black",
-  "navigationBarBackgroundColor": "#00ffff",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#55aaff",
   "usingComponents": {}
 }

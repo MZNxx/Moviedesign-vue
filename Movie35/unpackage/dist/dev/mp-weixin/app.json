@@ -4,7 +4,9 @@
     "pages/ViewArea/ViewArea",
     "pages/Recommend/Recommend",
     "pages/My/My",
-    "pages/regist/regist"
+    "pages/regist/regist",
+    "pages/detail/detail",
+    "pages/funPage/funPage"
   ],
   "subPackages": [],
   "window": {
