@@ -9,37 +9,43 @@
 		<view >
 
 			<u-swipe-action>
-				<u-swipe-action-item :options="options1" v-for="(item, index) in list2" :key="index">
-					<view class="movieBox">
-						<!-- 排名区 -->
-						<view class="rankItem">
-							<text>
-								{{item.rno}}
-							</text>
-						</view>
-
-						<!-- img -->
-						<view class="imgItem" :style="{backgroundImage:`url(${item.rimg})`}">
-
-						</view>
-
-						<!-- 放各种文字的地方 -->
-						<view class="textBox">
-							<!-- title -->
-							<view class="title">
+				<u-swipe-action-item :options="options1" 
+				v-for="(item, index) in list2" :key="index"
+				>
+					<view @click="clickSwiper(`${item.rid}`)">
+						<view class="movieBox">
+							<!-- 排名区 -->
+							<view class="rankItem">
 								<text>
-									{{item.rtitle}}
+									{{item.rno}}
 								</text>
 							</view>
-
-							<view class="content">
-								<text>
-									{{item.rcontent}}
-								</text>
+						
+							<!-- img -->
+							<view class="imgItem" :style="{backgroundImage:`url(${item.rimg})`}">
+						
 							</view>
-
+						
+							<!-- 放各种文字的地方 -->
+							<view class="textBox">
+								<!-- title -->
+								<view class="title">
+									<text>
+										{{item.rtitle}}
+									</text>
+								</view>
+						
+								<view class="content">
+									<text>
+										{{item.rcontent}}
+									</text>
+								</view>
+						
+							</view>
 						</view>
 					</view>
+				
+					
 
 				</u-swipe-action-item>
 			</u-swipe-action>
@@ -117,7 +123,12 @@
 		},
 
 		methods: {
-
+			clickSwiper(rid){
+				console.log("rid",rid);
+				uni.navigateTo({
+					url:"/pages/detail/detail?aid="+rid
+				})
+			},
 			click(item) {
 				console.log('item', item);
 			},

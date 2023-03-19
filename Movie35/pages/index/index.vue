@@ -48,9 +48,16 @@
 
 		<!-- swiper轮播图：indicator-dots说明是否显示面板指示点；autoplay是否自动切换；interval自动切换时间间隔；duration滑动动画时长	 -->
 		<view class="swiperBox">
-			<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
-				<swiper-item v-for="carousel in carouselList" :key="carousel.mid">
-					<image :src="carousel" class="carousel"></image>
+			<swiper 
+			
+			:indicator-dots="true" 
+			:autoplay="true" 
+			:interval="3000" 
+			:duration="1000">
+				<swiper-item v-for="carousel in carouselList" 
+				:key="carouselList.sid" 
+				@click="clickSwiper(`${carousel.said}`)">
+					<image :src="carousel.simg" class="carousel"></image>
 				</swiper-item>
 			</swiper>
 		</view>
@@ -71,7 +78,7 @@
 		<!-- 热门影剧:横向滚动列表s -->
 		<scroll-view scroll-x="true" class="page-block hot">
 			<view class="single-poster" v-for="hotitem in hotmovieList" :key="mid">
-				<view class="post-wapper" @click="goDetail(`${hotitem.mid}`)">
+				<view class="post-wapper" @click="goDetail(`${hotmovieList.mid}`)">
 					<image :src='`${hotitem.murl}`' class="poster"></image>
 					<view class="movie-name">
 						{{hotitem.mname}}
@@ -117,6 +124,7 @@
 	export default {
 		data() {
 			return {
+				current:0,//轮播图当前页面
 				carouselList: [],
 				hotmovieList: [],
 				inputValue: '',
@@ -172,8 +180,14 @@
 
 					}
 				})
+			},
+			//点击轮播图
+			clickSwiper(e){
+				// console.log("e",e);
+				uni.navigateTo({
+					url:"/pages/detail/detail?aid="+e
+				})
 			}
-
 
 			// 			 search() {
 			// 			 if (this.inputValue == '') {
